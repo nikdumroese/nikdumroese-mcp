@@ -1,0 +1,9 @@
+name = "nikdumroese-mcp"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+workers_dev = true
+
+# After first deploy, attach the custom domain (requires the zone on this account):
+# routes = [
+#   { pattern = "mcp.nikdumroese.com", custom_domain = true }
+# ]
