@@ -53,6 +53,14 @@ PROJECTS = [
         "outcome": "Self-improving loops, RAG memory over a ~1,000-doc vector-indexed wiki, eval frameworks with regression tracking. Ran without manual triggers.",
     },
     {
+        "id": "agent-swarm",
+        "name": "Decentralized multi-agent swarm, no orchestrator",
+        "summary": "Tests whether agents can coordinate with no single agent or human ever picking the next move.",
+        "scope": "Holocracy-inspired framework, no central orchestrator, reusable across use cases",
+        "stack": "LangGraph (StateGraph, Send fan-out), Claude Code CLI (headless), JSON Schema, Python",
+        "outcome": "Independent roles coordinate via file-based mailboxes; a proposal integrates only once every other role has had a turn to object, computed from an append-only audit log, never decided by an LLM or human. Applied to a real live job search with a dedicated fact-checking role enforcing a hard no-fabrication rule; found 3 real permission-model bugs via direct CLI testing.",
+    },
+    {
         "id": "incrementality",
         "name": "Incrementality testing framework",
         "summary": "From-scratch causal measurement so spend followed proven lift.",
