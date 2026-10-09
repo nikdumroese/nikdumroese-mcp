@@ -18,15 +18,15 @@ DEFAULT_PROTOCOL = "2025-06-18"
 VERSION = "1.0.0"
 
 ABOUT = (
-    "Nik (Niklaas) Dumroese builds and ships agentic go-to-market systems: "
-    "multi-agent infrastructure, growth engineering, and the GTM data underneath. "
-    "From a tiny town in Idaho, now building in Germany. He started in performance "
-    "marketing for the measurability and worked his way to performance of GTM. "
-    "Through-line: don't take a reported number on faith — build the system that "
-    "produces an honest one."
+    "Nik (Niklaas) Dumroese is a marketing AI engineer. He builds the measurement "
+    "models, data pipelines and agents that marketing and GTM teams run on. From a "
+    "small town in Idaho, now based in Germany. He started in performance marketing "
+    "because it could be measured, and moved into building GTM systems. Across his "
+    "work, he builds the system that produces a number he can check instead of "
+    "trusting a reported one."
 )
 
-AVAILABILITY = "Open to new work from September 2026. Focus: agentic GTM systems, growth engineering, GTM data."
+AVAILABILITY = "Available immediately. Open to marketing AI engineering roles; also growth engineering and GTM data work."
 
 CONTACT = {
     "email": "hello@nikdumroese.com",
@@ -42,7 +42,7 @@ PROJECTS = [
         "summary": "Turned a 100% inbound motion into a signal-driven outbound engine.",
         "scope": "Signal pipeline -> enrichment -> ICP + signal scoring -> branched outreach -> eval loop",
         "stack": "Python, dbt, Clay, LLM copy layer, CRM automation, GitHub/PyPI/Docker APIs",
-        "outcome": "Shipped as a live app + runnable scoring model. Every number from a real public API. ~14x directional year-one ROI; <5% of sends need human review.",
+        "outcome": "Shipped as a live app + runnable scoring model. Every number from a real public API. ~14x modelled year-one ROI; <5% of sends need human review.",
     },
     {
         "id": "agentic",
@@ -56,7 +56,7 @@ PROJECTS = [
         "id": "agent-swarm",
         "name": "Decentralized multi-agent swarm, no orchestrator",
         "summary": "Tests whether agents can coordinate with no single agent or human ever picking the next move.",
-        "scope": "Holocracy-inspired framework, no central orchestrator, reusable across use cases",
+        "scope": "Holacracy-inspired framework, no central orchestrator, reusable across use cases",
         "stack": "LangGraph (StateGraph, Send fan-out), Claude Code CLI (headless), JSON Schema, Python",
         "outcome": "Independent roles coordinate via file-based mailboxes; a proposal integrates only once every other role has had a turn to object, computed from an append-only audit log, never decided by an LLM or human. Applied to a real live job search with a dedicated fact-checking role enforcing a hard no-fabrication rule; found 3 real permission-model bugs via direct CLI testing.",
     },
@@ -66,7 +66,7 @@ PROJECTS = [
         "summary": "From-scratch causal measurement so spend followed proven lift.",
         "scope": "Lift experiments separating causal impact from correlation",
         "stack": "Python, ads-platform APIs, SQL, geo-experiments",
-        "outcome": "~15% CAC improvement; set the experimentation culture behind later agent-driven testing.",
+        "outcome": "~15% CAC improvement.",
     },
     {
         "id": "data-infra",
